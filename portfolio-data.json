@@ -1,0 +1,424 @@
+{
+  "projects": [
+    {
+      "id": "chase",
+      "title": "Enterprise Agentic AI",
+      "eyebrow": "FEATURED DEPLOYMENT · CHASE",
+      "category": "Enterprise AI",
+      "year": "2024 – Present",
+      "summary": "Production-oriented agent workflows that connect LLM reasoning, enterprise tools, identity controls, and retrieval.",
+      "problem": "Enterprise users need grounded answers and dependable actions across secure systems.",
+      "solution": "Architected agent orchestration and secure integration layers using Python, FastAPI, LangGraph, MCP, Google ADK, and cloud services.",
+      "architecture": [
+        "User & customer journey",
+        "Identity and policy gateway",
+        "Agent orchestration",
+        "MCP and enterprise tools",
+        "RAG retrieval and reranking",
+        "Evaluation, tracing and monitoring"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "MCP",
+        "Gemini",
+        "Google ADK",
+        "Azure OpenAI",
+        "OpenSearch",
+        "Kubernetes"
+      ],
+      "impact": "Enterprise production engineering, secure tool access, and evaluation-driven release practices.",
+      "accent": "#59d8ff",
+      "confidential": true,
+      "story": {
+        "logline": "A secure banking AI platform needed to move beyond impressive demos and into dependable production. The mission: give intelligent agents access to the right knowledge and tools without compromising control.",
+        "scenes": [
+          [
+            "ACT I · THE CHALLENGE",
+            "Enterprise workflows required grounded answers, permission-aware actions and predictable behavior across banking systems."
+          ],
+          [
+            "ACT II · THE BUILD",
+            "I engineered agent workflows with LangGraph, Azure OpenAI, enterprise MCP integrations, FastAPI, retrieval and reranking. Evaluation harnesses, policy gates and OpenTelemetry made each release measurable and observable."
+          ],
+          [
+            "ACT III · THE OUTCOME",
+            "The production platform brought secure agent execution, retrieval quality and release discipline together, while model routing and caching improved operating efficiency."
+          ]
+        ],
+        "metrics": [
+          {
+            "value": "92%",
+            "label": "Enterprise retrieval accuracy"
+          },
+          {
+            "value": "45%",
+            "label": "Fewer regression defects"
+          },
+          {
+            "value": "42%",
+            "label": "Lower AI operating costs"
+          },
+          {
+            "value": "99.95%",
+            "label": "Reported service availability"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rag",
+      "title": "Enterprise Knowledge Grounding",
+      "eyebrow": "RETRIEVAL SYSTEMS · CHASE",
+      "category": "Enterprise AI",
+      "year": "2024 – Present",
+      "summary": "Hybrid retrieval and contextual grounding for enterprise knowledge and decision support.",
+      "problem": "Answers from LLMs require reliable, permission-aware evidence from changing internal knowledge.",
+      "solution": "Built retrieval workflows with chunking, embeddings, vector search, reranking, grounding evaluation and regression checks.",
+      "architecture": [
+        "Document ingestion",
+        "Chunking and metadata",
+        "Vector + hybrid search",
+        "Reranking",
+        "Grounded generation",
+        "RAGAS / TruLens evaluation"
+      ],
+      "stack": [
+        "LangChain",
+        "LlamaIndex",
+        "OpenSearch",
+        "Pinecone",
+        "RAGAS",
+        "TruLens",
+        "Python"
+      ],
+      "impact": "Grounding, retrieval quality, and observability are first-class engineering concerns.",
+      "accent": "#a78bfa",
+      "confidential": true
+    },
+    {
+      "id": "pge",
+      "title": "Intelligent Utility Operations",
+      "eyebrow": "AI & AUTOMATION · PG&E",
+      "category": "Enterprise AI",
+      "year": "2022 – 2024",
+      "summary": "Predictive data pipelines, maintenance knowledge search, and cloud-native automation for utility operations.",
+      "problem": "Field teams need timely context from operational telemetry, maintenance records and incident reports.",
+      "solution": "Delivered FastAPI services, Azure AI Search retrieval, streaming telemetry pipelines and AKS deployment automation.",
+      "architecture": [
+        "Telemetry / field data",
+        "Event ingestion",
+        "PySpark processing",
+        "Predictive and retrieval services",
+        "FastAPI integrations",
+        "Monitoring and feedback"
+      ],
+      "stack": [
+        "Python",
+        "Azure AI Search",
+        "FastAPI",
+        "PySpark",
+        "Event Hubs",
+        "AKS",
+        "Terraform"
+      ],
+      "impact": "Resume-reported: 65% reduction in technician MTTR; 10M+ daily telemetry events.",
+      "accent": "#5cf2c4",
+      "confidential": true,
+      "story": {
+        "logline": "When utility teams face a field incident, the clock starts ticking. I helped transform fragmented telemetry and decades of maintenance knowledge into faster, grounded operational decisions.",
+        "scenes": [
+          [
+            "ACT I · THE CHALLENGE",
+            "Field technicians needed actionable context from operational signals, incident history and maintenance runbooks."
+          ],
+          [
+            "ACT II · THE BUILD",
+            "I built PySpark and Azure Event Hubs pipelines for telemetry, predictive services, and Azure AI Search-powered retrieval exposed through FastAPI. Docker, AKS and Terraform supported repeatable delivery."
+          ],
+          [
+            "ACT III · THE OUTCOME",
+            "Grounded maintenance knowledge helped teams resolve incidents faster, while automation compressed deployment cycles and distributed processing kept telemetry flowing."
+          ]
+        ],
+        "metrics": [
+          {
+            "value": "65%",
+            "label": "Reduction in technician MTTR"
+          },
+          {
+            "value": "10M+",
+            "label": "Telemetry events processed daily"
+          },
+          {
+            "value": "<1 min",
+            "label": "Telemetry processing latency"
+          },
+          {
+            "value": "<10 min",
+            "label": "Automated deployment time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socialwave",
+      "title": "SocialWave",
+      "eyebrow": "FOUNDER PROJECT · EMOTION AI",
+      "category": "Originals",
+      "year": "Founder project",
+      "summary": "An emotionally intelligent AI platform concept and architecture for adaptive conversations and personalized experiences.",
+      "problem": "Conventional assistants often miss emotional context, memory and nuanced interaction signals.",
+      "solution": "Designed multi-tier emotion intelligence, situational reasoning, LLM orchestration, memory, human oversight and an API product roadmap.",
+      "architecture": [
+        "Conversation signals",
+        "Emotion and context layer",
+        "Agent orchestration",
+        "Vector memory",
+        "LLM response generation",
+        "Human oversight"
+      ],
+      "stack": [
+        "LLMs",
+        "Agentic AI",
+        "RAG",
+        "Vector memory",
+        "HITL",
+        "Cloud APIs"
+      ],
+      "impact": "Founder-led platform architecture and product roadmap. Public demo not yet supplied.",
+      "accent": "#ff77bd",
+      "confidential": false
+    },
+    {
+      "id": "focusai",
+      "title": "FocusAI",
+      "eyebrow": "PERSONAL BUILD · AI PRODUCTIVITY",
+      "category": "Originals",
+      "year": "Personal project",
+      "summary": "AI-powered task prioritization based on urgency, stakeholder impact and dependencies.",
+      "problem": "Task lists rarely explain what matters most and why.",
+      "solution": "Designed a React and TypeScript dashboard for AI-assisted priority scores, urgency filters and contextual insights.",
+      "architecture": [
+        "Task input",
+        "React state",
+        "Priority analysis request",
+        "Claude response",
+        "Priority score and rationale",
+        "Interactive task dashboard"
+      ],
+      "stack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite",
+        "Claude API"
+      ],
+      "impact": "UI screenshot and project configuration supplied. Full src folder and working API backend still need verification.",
+      "accent": "#f5bd73",
+      "confidential": false
+    },
+    {
+      "id": "forsys",
+      "title": "Secure AI Platform Services",
+      "eyebrow": "PLATFORM ENGINEERING · FORSYS",
+      "category": "Engineering",
+      "year": "2017 – 2021",
+      "summary": "Cloud-native APIs, event-driven data workflows, security controls and automated quality gates.",
+      "problem": "Enterprise teams need predictable access to model predictions and governed data services.",
+      "solution": "Built Python APIs, event workflows, CI/CD testing, OAuth2/JWT/RBAC integration and operational dashboards.",
+      "architecture": [
+        "Enterprise clients",
+        "Authenticated APIs",
+        "Model / data services",
+        "Event pipelines",
+        "Automated tests",
+        "Operational dashboards"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "GraphQL",
+        "Azure",
+        "Docker",
+        "PostgreSQL",
+        "Pytest"
+      ],
+      "impact": "Resume-reported: sub-50ms p95 APIs and 90%+ automated code coverage.",
+      "accent": "#9fb6ff",
+      "confidential": true,
+      "story": {
+        "logline": "Behind every intelligent product is a platform that has to respond quickly, protect data and ship safely. At Forsys, I built the services and delivery foundations that made that possible.",
+        "scenes": [
+          [
+            "ACT I · THE CHALLENGE",
+            "Enterprise and healthcare workflows needed reliable access to data and model predictions, with robust access controls and repeatable releases."
+          ],
+          [
+            "ACT II · THE BUILD",
+            "I developed Python/FastAPI and GraphQL services, event-driven data pipelines and OAuth2/JWT/RBAC controls. Azure DevOps pipelines used pytest, Mocha and Jest to enforce quality gates."
+          ],
+          [
+            "ACT III · THE OUTCOME",
+            "The platform combined low-latency APIs, automated testing and operational visibility, giving engineering teams a stronger base for cloud-native delivery."
+          ]
+        ],
+        "metrics": [
+          {
+            "value": "<50 ms",
+            "label": "Reported p95 API latency"
+          },
+          {
+            "value": "90%+",
+            "label": "Automated test coverage"
+          }
+        ]
+      }
+    }
+  ],
+  "certificates": [
+    "Coursera RV2CZ7AI5AX4.pdf",
+    "Coursera Y6HVT6ZKMZ1S.pdf",
+    "Coursera DBUQ9NOG5606(1).pdf",
+    "Coursera 5UM6JRZ2RBRQ(1).pdf",
+    "Coursera KZEMV1XNI5ZZ.pdf",
+    "Coursera YISFKR3PBQNI(1).pdf",
+    "Coursera PRZTJCLC0SUN.pdf",
+    "Coursera TPG9XVTGFYUS(1).pdf",
+    "Coursera 0U7KWPIPD5CB(1).pdf",
+    "Coursera OAGKRXW55Y91(1).pdf",
+    "Coursera 9BWHYJVB1T7X.pdf",
+    "Coursera L1M9MLKNK8HL.pdf",
+    "Coursera PLLXX9QCILRF(1).pdf",
+    "Coursera 33P1GNLH325A.pdf",
+    "Coursera 9QAVTHGD37KX(1).pdf",
+    "Coursera X078LYAYPGKK(1).pdf",
+    "Coursera 2HEMBP8LVLK2(1).pdf",
+    "Coursera 0XVBFP97U2Z7(1).pdf",
+    "Coursera PVCKSVDNHR1W.pdf",
+    "Google AI.pdf"
+  ],
+  "toolkit": [
+    {
+      "index": "01 / INTELLIGENCE",
+      "title": "Agent Systems & Orchestration",
+      "description": "Reasoning, tools, controlled autonomy and enterprise agent workflows.",
+      "skills": [
+        "LangGraph",
+        "LangChain",
+        "LlamaIndex",
+        "MCP",
+        "Google ADK",
+        "Amazon Bedrock",
+        "Azure OpenAI",
+        "Anthropic Claude",
+        "Gemini",
+        "Agent Memory",
+        "HITL",
+        "Guardrails"
+      ]
+    },
+    {
+      "index": "02 / GROUNDING",
+      "title": "RAG, Search & Evaluation",
+      "description": "Grounded generation with measurable retrieval quality and repeatable evaluations.",
+      "skills": [
+        "Azure AI Search",
+        "OpenSearch",
+        "Pinecone",
+        "ChromaDB",
+        "FAISS",
+        "Hybrid Search",
+        "Reranking",
+        "RAGAS",
+        "TruLens",
+        "Azure AI Foundry",
+        "Prompt Flow",
+        "Prompt Evaluation"
+      ]
+    },
+    {
+      "index": "03 / ENGINEERING",
+      "title": "Backend, APIs & Developer Platforms",
+      "description": "Production services, SDKs, developer experience and application integration.",
+      "skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Pydantic",
+        "asyncio",
+        "TypeScript",
+        "Node.js",
+        "React",
+        "REST",
+        "GraphQL",
+        "gRPC",
+        "OpenAPI",
+        "Python SDKs",
+        "PyPI"
+      ]
+    },
+    {
+      "index": "04 / PRODUCTION",
+      "title": "Cloud, DevOps & Reliability",
+      "description": "Scalable infrastructure, observability and automated delivery.",
+      "skills": [
+        "Azure",
+        "AWS",
+        "GCP",
+        "AKS",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Azure Functions",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Azure DevOps",
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "index": "05 / DATA",
+      "title": "Streaming, Data & ML Platforms",
+      "description": "Data engineering foundations for intelligent systems at scale.",
+      "skills": [
+        "PySpark",
+        "Databricks",
+        "Delta Lake",
+        "Airflow",
+        "Azure Event Hubs",
+        "Azure Synapse",
+        "Azure Data Factory",
+        "PostgreSQL",
+        "SQL",
+        "DynamoDB",
+        "Vector Databases"
+      ]
+    },
+    {
+      "index": "06 / TRUST",
+      "title": "Security, Testing & Governance",
+      "description": "Enterprise identity, automated quality and policy-aware releases.",
+      "skills": [
+        "OAuth2",
+        "OIDC",
+        "JWT",
+        "RBAC",
+        "IAM",
+        "Azure Key Vault",
+        "Pytest",
+        "Ruff",
+        "Black",
+        "mypy",
+        "Contract Testing",
+        "CI/CD Gates",
+        "HIPAA",
+        "SOC 2",
+        "PCI-DSS"
+      ]
+    }
+  ]
+}
